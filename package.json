@@ -1,0 +1,32 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "create-react-app": "^3.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-js": "^1.1.15",
+    "mongoose": "^5.9.6",
+    "react-fontawesome": "^1.7.1"
+  },
+  "description": ""
+}
